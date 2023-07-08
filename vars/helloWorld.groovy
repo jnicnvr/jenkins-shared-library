@@ -1,7 +1,4 @@
 def call(){
+    env.P_BRANCH = BRANCH_NAME
     echo 'Hello from Shared Library'
-}
-
-def P_BRANCH(){
-    return env.BRANCH_NAME
 }
