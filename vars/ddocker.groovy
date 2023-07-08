@@ -1,4 +1,6 @@
 
 def build(String imageTag){
-        docker.build(imageTag)   
+    echo imageTag
+    sh 'docker version'
+    //docker.build(imageTag)   
 }
