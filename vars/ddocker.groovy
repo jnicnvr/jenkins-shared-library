@@ -8,6 +8,6 @@ def version(){
    sh 'docker version'
 }
 
-def setImageNamez(){
-    return "123"
+def setImageName(String artifactoryName){
+    return "${artifactoryName}"
 }
