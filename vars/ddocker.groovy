@@ -9,5 +9,5 @@ def version(){
 }
 
 def setImageName(String artifactoryName,String image,String branch,String buildNumber){
-    return "${artifactoryName}/${image}:${branch}-${buildNumber}"
+    return "${artifactoryName}//${image}:${branch}-${buildNumber}"
 }
